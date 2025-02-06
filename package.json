@@ -1,0 +1,21 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "GOIT Node.js Homework 1",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test-contacts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/AntonChubarov/goit-node-cli"
+  },
+  "author": "Anton Chubarov",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "uuid": "^11.0.5"
+  },
+  "type": "module"
+}
